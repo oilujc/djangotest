@@ -25,7 +25,7 @@ SECRET_KEY = 'gwtswhw47z3h@^e)m*yl11i@w)+q5fef^e*^m#q$a6ptki4%@o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['girosapp.pythonanywhere.com']
 
 AUTH_USER_MODEL = 'accounts.User'
 
@@ -112,12 +112,8 @@ WSGI_APPLICATION = 'djangoTest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pokedex',
-        'USER': 'postgres',
-        'PASSWORD': 'asdw1235',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
