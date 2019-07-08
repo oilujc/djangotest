@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'gwtswhw47z3h@^e)m*yl11i@w)+q5fef^e*^m#q$a6ptki4%@o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['girosapp.pythonanywhere.com']
 
@@ -112,8 +112,12 @@ WSGI_APPLICATION = 'djangoTest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangotest',
+        'USER': 'super',
+        'PASSWORD': '0946378251asdw',
+        'HOST': 'girosapp-847.postgres.pythonanywhere-services.com',
+        'PORT': '10847',
     }
 }
 
