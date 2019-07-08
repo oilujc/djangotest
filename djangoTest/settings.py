@@ -166,11 +166,11 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-#Ruta absoluta al directorio donde se recopilaran los archivos estaticos para la implementacion
-STATIC_ROOT = "/static/"
-
 
 MEDIA_URL = "/media/"
+#Ruta absoluta al directorio donde se recopilaran los archivos estaticos para la implementacion
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static-cdn", "static-root")
+
 #Ruta absoluta del sistema de archivos al directorio que contendra los archivos cargados por el usuario .
-MEDIA_ROOT = '/media/'
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR),"static-cdn", "media-root")
 CKEDITOR_UPLOAD_PATH = 'uploads/'
