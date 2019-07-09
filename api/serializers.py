@@ -68,7 +68,7 @@ class ChapterSerializer(serializers.ModelSerializer):
 		return PageContentSerializer(obj.pagecontent_set.all(),many=True).data
 
 	def get_subchapter(self, obj):
-		return SubChapterSerializer(obj.subchapter_set.all(),many=True).data
+		return SubChapterSerializer(obj.subchapter_set.all().order_by('pk'),many=True).data
 
 	class Meta:
 		model = Chapter
