@@ -57,7 +57,7 @@ class SubChapterSerializer(serializers.ModelSerializer):
 		 		)
 
 	def get_content(self, obj):
-		return ContentSerializer(obj.content_set.all(),many=True).data
+		return ContentSerializer(obj.content_set.all().order_by('pk'),many=True).data
 
 class ChapterSerializer(serializers.ModelSerializer):
 
