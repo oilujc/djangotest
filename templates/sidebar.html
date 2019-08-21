@@ -1,0 +1,31 @@
+<!-- Sidebar Widgets Column -->
+<div class="col-md-4">
+  <!-- Capítulos Widget -->
+  <div class="card my-4">
+    <h5 class="card-header">Contenido</h5>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="list-unstyled mb-0">
+            {% for page in book.chapter_set.pages %}
+            <li>
+              <a href="{% url 'chapter' book=book.slug slug=page.slug %}">{{page.title|capfirst}}</a>
+            </li>
+            {% endfor %}
+
+            {% for chapter in book.chapter_set.chapters %}
+            <li>
+              <span><b>Capítulo {{chapter.chapter}}</b> {{chapter.title|capfirst}}</span>
+              <ul>
+                {% for subchapter in chapter.subchapter_set.all %}
+                <li><a href="{% url 'subchapter' book=book.slug chapter=chapter.slug slug=subchapter.slug %}">{{subchapter.title|capfirst}}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

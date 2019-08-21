@@ -6,6 +6,9 @@
 *.pot
 *.pyc
 __pycache__/
+secret.py
+*.sqlite3
+*.db
 
 ### Celery ###
 *.pid

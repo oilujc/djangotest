@@ -1,0 +1,28 @@
+  <section id="index" class="py-3"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 mx-auto">
+          <h2>Indice</h2>
+          <nav>
+            <ul>
+              {% for chapter in book.chapter_set.pages %}
+              <li class="mb-3">
+                <a href="{% url 'chapter' book=book.slug slug=chapter.slug %}"><span>{{chapter.title|capfirst}}</span></a>
+              </li>
+              {% endfor %}
+              {% for chapter in book.chapter_set.chapters %}
+              <li class="mb-3">
+                <span><b>Capítulo {{chapter.chapter}}</b> {{chapter.title|capfirst}}</span>
+                <ul>
+                  {% for subchapter in chapter.subchapter_set.all %}
+                    <li><a href="{% url 'subchapter' book=book.slug chapter=chapter.slug slug=subchapter.slug %}">{{subchapter.title|capfirst}}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>

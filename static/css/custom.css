@@ -1,0 +1,18 @@
+body {
+	min-height: 100%;
+}
+
+.round-img {
+  border-radius: 50% !important;
+  width: 20%;
+  height: 25%;
+}
+
+.guia-biblica {
+	color: #fff!important;
+	background-color: #007bff !important;
+}
+
+.proyecto-vuelve-a-casa {
+	background-color: #f5e873 !important;
+}

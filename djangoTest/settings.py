@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from djangoTest.secret import * 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -19,13 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'gwtswhw47z3h@^e)m*yl11i@w)+q5fef^e*^m#q$a6ptki4%@o'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['girosapp.pythonanywhere.com']
 
 AUTH_USER_MODEL = 'accounts.User'
 
@@ -43,6 +38,8 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'rest_framework',
+
+    'sorl.thumbnail',
 ]
 
 REST_FRAMEWORK = {
@@ -70,10 +67,24 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'full',
         'height': 300,
         'width': 900,
-    },
-    'awesome_ckeditor': {
-        'toolbar': 'Basic',
-    },
+        'extraPlugins': ','.join([
+            'image2',
+            'uploadimage', # the upload image feature
+            # your extra plugins here
+            'div',
+            'autolink',
+            'autoembed',
+            'embedsemantic',
+            'autogrow',
+            # 'devtools',
+            'widget',
+            'lineutils',
+            'clipboard',
+            'dialog',
+            'dialogui',
+            'elementspath'
+        ]),
+    }
 }
 
 MIDDLEWARE = [
@@ -91,7 +102,7 @@ ROOT_URLCONF = 'djangoTest.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -99,6 +110,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'utils.context_processors.books',
+                'utils.context_processors.sections',
             ],
         },
     },
@@ -107,19 +120,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'djangoTest.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'djangotest',
-        'USER': 'super',
-        'PASSWORD': '0946378251asdw',
-        'HOST': 'girosapp-847.postgres.pythonanywhere-services.com',
-        'PORT': '10847',
-    }
-}
 
 
 # Password validation

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+	<!-- Page Content -->
+	<div class="container mt-5">
+		<div class="row">
+			<!-- Blog Entries Column -->
+			<div class="col-md-12">
+				<h1 class="my-4">Resultados de la busqueda
+				<small>{{qs|capfirst}}</small>
+				</h1>
+				{% if number.count > 0 %}
+				<!-- Posts -->
+				<h3>Numerales</h3>
+				{% for content in number %}
+				<div class="card mb-4">
+					<div class="card-body">
+						{% if content.chapter %}
+						<h2 class="card-title">{{content.chapter.title|capfirst}}</h2>
+						{% else %}
+						<h2 class="card-title">{{content.subchapter.title|capfirst}}</h2>
+						{% endif %}
+						<div class="card-text">
+							{{content.content|safe|truncatewords:30}}
+						</div>
+						{% if content.chapter %}
+							<a href="{% url 'chapter' book=content.chapter.book.slug slug=content.chapter.slug %}#{{qs}}" class="btn btn-primary">Leer mas &rarr;</a>
+						{% else %}
+							<a href="{% url 'subchapter' book=content.subchapter.chapter.book.slug chapter=content.subchapter.chapter.slug slug=content.subchapter.slug %}#{{qs}}" class="btn btn-primary">Leer mas &rarr;</a>
+						{% endif %}
+					</div>
+				</div>
+				{% endfor %}	
+				{% endif %}
+
+				{% if contents.count > 0 %}
+				<!-- Posts -->
+				<h3>Contenido</h3>
+				{% for content in contents %}
+				<div class="card mb-4">
+					<div class="card-body">
+						{% if content.chapter %}
+						<h2 class="card-title">{{content.chapter.title|capfirst}}</h2>
+						{% else %}
+						<h2 class="card-title">{{content.subchapter.title|capfirst}}</h2>
+						{% endif %}
+						<div class="card-text">
+							{{content.content|safe|truncatewords:30}}
+						</div>
+						{% if content.chapter %}
+							<a href="{% url 'chapter' book=content.chapter.book.slug slug=content.chapter.slug %}#{{content.number}}" class="btn btn-primary">Leer mas &rarr;</a>
+						{% else %}
+							<a href="{% url 'subchapter' book=content.subchapter.chapter.book.slug chapter=content.subchapter.chapter.slug slug=content.subchapter.slug %}#{{content.number}}" class="btn btn-primary">Leer mas &rarr;</a>
+						{% endif %}
+					</div>
+				</div>
+				{% endfor %}	
+				{% endif %}
+			</div>
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+{% endblock content %}

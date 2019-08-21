@@ -1,0 +1,2492 @@
+[
+  {
+    "model": "app.subchapter",
+    "pk": 1,
+    "fields": {
+      "chapter": 1,
+      "title": "el pueblo necesita hospitalito de la fe",
+      "slug": "subchapter-1",
+      "created_at": "2019-07-09T00:08:00.464Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 2,
+    "fields": {
+      "chapter": 1,
+      "title": "hospitalitos de la fe atiende a ovejas maltratadas por lobos",
+      "slug": "subchapter-2",
+      "created_at": "2019-07-09T00:22:46.822Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 3,
+    "fields": {
+      "chapter": 1,
+      "title": "auxilio en la fe para quien está pensando en abandonar la iglesia católica",
+      "slug": "subchapter-3",
+      "created_at": "2019-07-09T00:23:12.933Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 4,
+    "fields": {
+      "chapter": 1,
+      "title": "¿quieres ser católico(a) y buscas orientación?",
+      "slug": "subchapter-4",
+      "created_at": "2019-07-09T00:23:27.849Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 5,
+    "fields": {
+      "chapter": 1,
+      "title": "test: ¿soy católico o protestante?",
+      "slug": "subchapter-5",
+      "created_at": "2019-07-09T00:23:38.011Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 6,
+    "fields": {
+      "chapter": 1,
+      "title": "del protestantismo al ateísmo",
+      "slug": "subchapter-6",
+      "created_at": "2019-07-09T00:23:52.247Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 7,
+    "fields": {
+      "chapter": 2,
+      "title": "¿quién hizo a dios?",
+      "slug": "subchapter-7",
+      "created_at": "2019-07-09T01:05:29.989Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 8,
+    "fields": {
+      "chapter": 2,
+      "title": "santísima trinidad: tres personas distintas, un solo dios",
+      "slug": "subchapter-8",
+      "created_at": "2019-07-09T01:05:55.289Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 9,
+    "fields": {
+      "chapter": 2,
+      "title": "la santísima trinidad en la iglesia primitiva",
+      "slug": "subchapter-9",
+      "created_at": "2019-07-09T01:06:20.174Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 10,
+    "fields": {
+      "chapter": 2,
+      "title": "cristo es dios; no es un ángel o un mero profeta",
+      "slug": "subchapter-10",
+      "created_at": "2019-07-09T01:06:31.090Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 11,
+    "fields": {
+      "chapter": 2,
+      "title": "el espíritu santo es dios",
+      "slug": "subchapter-11",
+      "created_at": "2019-07-09T01:06:41.607Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 12,
+    "fields": {
+      "chapter": 2,
+      "title": "invocar a ‘jehová’ es ofender a dios",
+      "slug": "subchapter-12",
+      "created_at": "2019-07-09T01:06:51.686Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 13,
+    "fields": {
+      "chapter": 3,
+      "title": "dicen algunos: ‘yo no soy católico, yo soy cristiano",
+      "slug": "subchapter-13",
+      "created_at": "2019-07-15T20:45:32.383Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 14,
+    "fields": {
+      "chapter": 3,
+      "title": "iglesia, católico y secta: ¿qué significan?",
+      "slug": "subchapter-14",
+      "created_at": "2019-07-15T20:45:54.534Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 15,
+    "fields": {
+      "chapter": 3,
+      "title": "¿dónde sale en la biblia iglesia católica?",
+      "slug": "subchapter-15",
+      "created_at": "2019-07-15T20:46:18.916Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 16,
+    "fields": {
+      "chapter": 3,
+      "title": "sanemos el lenguaje: ¿cristianos, católicos o evangélicos?",
+      "slug": "subchapter-16",
+      "created_at": "2019-07-15T20:46:41.898Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 17,
+    "fields": {
+      "chapter": 4,
+      "title": "la palabra de dios y la iglesia",
+      "slug": "subchapter-17",
+      "created_at": "2019-07-15T20:47:08.632Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 18,
+    "fields": {
+      "chapter": 4,
+      "title": "a la biblia le quitaron varios libros inspirados por",
+      "slug": "subchapter-18",
+      "created_at": "2019-07-15T20:47:38.967Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 19,
+    "fields": {
+      "chapter": 4,
+      "title": "la doctrina protestante ‘sólo la biblia basta’ es anti bíblica",
+      "slug": "subchapter-19",
+      "created_at": "2019-07-15T20:48:00.802Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 20,
+    "fields": {
+      "chapter": 4,
+      "title": "¿cómo interpretar correctamente la biblia?",
+      "slug": "subchapter-20",
+      "created_at": "2019-07-15T20:48:21.150Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 21,
+    "fields": {
+      "chapter": 5,
+      "title": "jesucristo ya fundó su iglesia",
+      "slug": "subchapter-21",
+      "created_at": "2019-07-15T20:48:51.781Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 22,
+    "fields": {
+      "chapter": 5,
+      "title": "la iglesia verdadera es la de cristo",
+      "slug": "subchapter-22",
+      "created_at": "2019-07-15T20:49:12.258Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 23,
+    "fields": {
+      "chapter": 5,
+      "title": "respuestas a objeciones",
+      "slug": "subchapter-23",
+      "created_at": "2019-07-15T20:49:40.319Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 24,
+    "fields": {
+      "chapter": 5,
+      "title": "¡sólo cristo salva! un slogan nocivo para las almas",
+      "slug": "subchapter-24",
+      "created_at": "2019-07-15T20:50:13.395Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 25,
+    "fields": {
+      "chapter": 5,
+      "title": "el primado de pedro (el papa) y los pastores de la iglesia",
+      "slug": "subchapter-25",
+      "created_at": "2019-07-15T20:50:49.812Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 26,
+    "fields": {
+      "chapter": 6,
+      "title": "católico, tu bautismo es verdadero",
+      "slug": "subchapter-26",
+      "created_at": "2019-07-15T20:51:21.174Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 27,
+    "fields": {
+      "chapter": 6,
+      "title": "la eucaristía, presencia real de cristo",
+      "slug": "subchapter-27",
+      "created_at": "2019-07-15T20:51:43.210Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 28,
+    "fields": {
+      "chapter": 6,
+      "title": "el sacramento de la confesión",
+      "slug": "subchapter-28",
+      "created_at": "2019-07-15T20:52:09.420Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 29,
+    "fields": {
+      "chapter": 6,
+      "title": "el sacramento de la confirmación",
+      "slug": "subchapter-29",
+      "created_at": "2019-07-15T20:52:35.192Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 30,
+    "fields": {
+      "chapter": 6,
+      "title": "recibo el poder sanador de cristo en la unción de los enfermos",
+      "slug": "subchapter-30",
+      "created_at": "2019-07-15T20:53:04.826Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 31,
+    "fields": {
+      "chapter": 6,
+      "title": "el sacramento del matrimonio",
+      "slug": "subchapter-31",
+      "created_at": "2019-07-15T20:53:33.496Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 32,
+    "fields": {
+      "chapter": 6,
+      "title": "el sacerdocio y el celibato",
+      "slug": "subchapter-32",
+      "created_at": "2019-07-15T20:53:57.948Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 33,
+    "fields": {
+      "chapter": 7,
+      "title": "la virginidad de maría",
+      "slug": "subchapter-33",
+      "created_at": "2019-07-16T14:20:46.347Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 34,
+    "fields": {
+      "chapter": 7,
+      "title": "maría, madre de dios y madre nuestra",
+      "slug": "subchapter-34",
+      "created_at": "2019-07-16T14:21:05.821Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 35,
+    "fields": {
+      "chapter": 7,
+      "title": "la asunción de la virgen maría",
+      "slug": "subchapter-35",
+      "created_at": "2019-07-16T14:21:35.986Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 36,
+    "fields": {
+      "chapter": 7,
+      "title": "el santo rosario",
+      "slug": "subchapter-36",
+      "created_at": "2019-07-16T14:22:02.379Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 37,
+    "fields": {
+      "chapter": 7,
+      "title": "las apariciones y advocaciones marianas",
+      "slug": "subchapter-37",
+      "created_at": "2019-07-16T14:22:31.726Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 38,
+    "fields": {
+      "chapter": 7,
+      "title": "decirle «señora» a la virgen maría no es convertirla en diosa",
+      "slug": "subchapter-38",
+      "created_at": "2019-07-16T14:22:56.779Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 39,
+    "fields": {
+      "chapter": 7,
+      "title": "inmaculada concepción de maría",
+      "slug": "subchapter-39",
+      "created_at": "2019-07-16T14:23:26.393Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 40,
+    "fields": {
+      "chapter": 7,
+      "title": "la virgen maría es reina",
+      "slug": "subchapter-40",
+      "created_at": "2019-07-16T14:23:51.242Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 41,
+    "fields": {
+      "chapter": 7,
+      "title": "los santos y la intercesión",
+      "slug": "subchapter-41",
+      "created_at": "2019-07-16T14:24:09.855Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 42,
+    "fields": {
+      "chapter": 7,
+      "title": "veneración y postraciones",
+      "slug": "subchapter-42",
+      "created_at": "2019-07-16T14:24:29.804Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 43,
+    "fields": {
+      "chapter": 7,
+      "title": "veneración y postraciones",
+      "slug": "subchapter-43",
+      "created_at": "2019-07-16T14:25:08.510Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 44,
+    "fields": {
+      "chapter": 8,
+      "title": "aclaración de términos",
+      "slug": "subchapter-44",
+      "created_at": "2019-07-17T14:25:15.282Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 45,
+    "fields": {
+      "chapter": 8,
+      "title": "las imágenes cristianas tienen bases bíblicas",
+      "slug": "subchapter-45",
+      "created_at": "2019-07-18T12:50:02.648Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 46,
+    "fields": {
+      "chapter": 8,
+      "title": "las imágenes cristianas nos relacionan con dios",
+      "slug": "subchapter-46",
+      "created_at": "2019-07-18T12:50:35.295Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 47,
+    "fields": {
+      "chapter": 8,
+      "title": "¿por qué encienden velas a los santos?",
+      "slug": "subchapter-47",
+      "created_at": "2019-07-18T13:47:15.258Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 48,
+    "fields": {
+      "chapter": 8,
+      "title": "respuestas a objeciones",
+      "slug": "subchapter-48",
+      "created_at": "2019-07-18T13:48:16.101Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 49,
+    "fields": {
+      "chapter": 8,
+      "title": "auxilio en la fe para quien destruye y profana imágenes cristianas",
+      "slug": "subchapter-49",
+      "created_at": "2019-07-18T13:48:42.515Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 50,
+    "fields": {
+      "chapter": 8,
+      "title": "hay hermanos que rechazan la cruz",
+      "slug": "subchapter-50",
+      "created_at": "2019-07-18T13:49:32.673Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 51,
+    "fields": {
+      "chapter": 8,
+      "title": "la cruz en las sagradas escrituras",
+      "slug": "subchapter-51",
+      "created_at": "2019-07-18T13:49:54.025Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 52,
+    "fields": {
+      "chapter": 8,
+      "title": "en su cuerpo, la iglesia católica, cristo sufre hoy la crucifixión. ¡todo un misterio!",
+      "slug": "subchapter-52",
+      "created_at": "2019-07-18T13:50:11.078Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 53,
+    "fields": {
+      "chapter": 8,
+      "title": "¿sabes qué enseñaban los primeros cristianos y san francisco de asís sobre la cruz?",
+      "slug": "subchapter-53",
+      "created_at": "2019-07-18T13:50:33.965Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 54,
+    "fields": {
+      "chapter": 9,
+      "title": "el purgatorio y la oración por los difuntos",
+      "slug": "subchapter-54",
+      "created_at": "2019-07-18T13:50:55.817Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 55,
+    "fields": {
+      "chapter": 9,
+      "title": "¿cómo protegernos de derrumbes en la fe ante la muerte de un ser muy cercano?",
+      "slug": "subchapter-55",
+      "created_at": "2019-07-18T13:53:20.805Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 56,
+    "fields": {
+      "chapter": 9,
+      "title": "los restos de un difunto; ¿darles sepultura o esparcir sus cenizas?",
+      "slug": "subchapter-56",
+      "created_at": "2019-07-18T13:54:17.300Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 57,
+    "fields": {
+      "chapter": 9,
+      "title": "¿existe el limbo?",
+      "slug": "subchapter-57",
+      "created_at": "2019-07-18T13:54:35.413Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 58,
+    "fields": {
+      "chapter": 9,
+      "title": "el infierno",
+      "slug": "subchapter-58",
+      "created_at": "2019-07-18T13:54:48.377Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 59,
+    "fields": {
+      "chapter": 9,
+      "title": "¿resurrección o reencarnación?",
+      "slug": "subchapter-59",
+      "created_at": "2019-07-18T13:55:06.699Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 60,
+    "fields": {
+      "chapter": 10,
+      "title": "la sola fe salva (martín lutero)",
+      "slug": "subchapter-60",
+      "created_at": "2019-07-18T13:55:52.932Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 61,
+    "fields": {
+      "chapter": 10,
+      "title": "la prohibición de las donaciones de sangre",
+      "slug": "subchapter-61",
+      "created_at": "2019-07-18T13:56:18.530Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 62,
+    "fields": {
+      "chapter": 10,
+      "title": "¿existen comidas impuras?",
+      "slug": "subchapter-62",
+      "created_at": "2019-07-18T13:56:35.894Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 63,
+    "fields": {
+      "chapter": 10,
+      "title": "dicen: ‘la religión no salva’",
+      "slug": "subchapter-63",
+      "created_at": "2019-07-18T13:56:51.254Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 64,
+    "fields": {
+      "chapter": 10,
+      "title": "la prohibición de pantalones y zarcillos a las mujeres",
+      "slug": "subchapter-64",
+      "created_at": "2019-07-18T13:57:04.273Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 65,
+    "fields": {
+      "chapter": 10,
+      "title": "¿te dijeron que en mt 23,8-10 dios prohíbe decirle ‘padre’ o ‘maestro’ a alguien?",
+      "slug": "subchapter-65",
+      "created_at": "2019-07-18T13:57:18.193Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 66,
+    "fields": {
+      "chapter": 10,
+      "title": "cambiaron decir a las personas ‘señor’ o ‘señora’, por ‘varón’ o ‘varona’",
+      "slug": "subchapter-66",
+      "created_at": "2019-07-18T13:57:35.189Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 67,
+    "fields": {
+      "chapter": 10,
+      "title": "los cumpleaños no son fiestas paganas",
+      "slug": "subchapter-67",
+      "created_at": "2019-07-18T13:57:52.173Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 68,
+    "fields": {
+      "chapter": 10,
+      "title": "la estafa del diezmo obligado",
+      "slug": "subchapter-68",
+      "created_at": "2019-07-18T13:58:09.317Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 69,
+    "fields": {
+      "chapter": 10,
+      "title": "¿el sábado o el domingo? ¿cuál es el día sagrado del señor?",
+      "slug": "subchapter-69",
+      "created_at": "2019-07-18T13:58:18.619Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 70,
+    "fields": {
+      "chapter": 10,
+      "title": "dicen: “no es necesario creer en doctrinas para salvarse”",
+      "slug": "subchapter-70",
+      "created_at": "2019-07-18T13:58:32.151Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 71,
+    "fields": {
+      "chapter": 10,
+      "title": "falsos avivamientos y excesos atribuidos al espíritu santo",
+      "slug": "subchapter-71",
+      "created_at": "2019-07-18T13:58:43.002Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 72,
+    "fields": {
+      "chapter": 10,
+      "title": "crónicas de falsas profecías del fin del mundo",
+      "slug": "subchapter-72",
+      "created_at": "2019-07-18T13:58:59.171Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 73,
+    "fields": {
+      "chapter": 10,
+      "title": "el fin del mundo y el gran día del armagedón",
+      "slug": "subchapter-73",
+      "created_at": "2019-07-18T13:59:09.539Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 74,
+    "fields": {
+      "chapter": 10,
+      "title": "¿quiénes son los 144.000 salvos que son mencionados en la biblia?",
+      "slug": "subchapter-74",
+      "created_at": "2019-07-18T13:59:20.121Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 75,
+    "fields": {
+      "chapter": 10,
+      "title": "la famosa ramera y la gran babilonia no es la iglesia católica",
+      "slug": "subchapter-75",
+      "created_at": "2019-07-18T13:59:32.818Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 76,
+    "fields": {
+      "chapter": 10,
+      "title": "¿el rapto es doctrina de cristo?",
+      "slug": "subchapter-76",
+      "created_at": "2019-07-18T13:59:42.742Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 77,
+    "fields": {
+      "chapter": 10,
+      "title": "objeciones contra el rapto",
+      "slug": "subchapter-77",
+      "created_at": "2019-07-18T13:59:57.146Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 78,
+    "fields": {
+      "chapter": 11,
+      "title": "¿qué es la nueva era?",
+      "slug": "subchapter-78",
+      "created_at": "2019-07-18T14:00:12.824Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 79,
+    "fields": {
+      "chapter": 11,
+      "title": "peligros de la actual costumbre de decir: ‘yo decreto’, ‘yo sello’, ‘yo cancelo’",
+      "slug": "subchapter-79",
+      "created_at": "2019-07-18T14:00:26.970Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 80,
+    "fields": {
+      "chapter": 11,
+      "title": "buscan desvirtuar la teología sobre los ángeles",
+      "slug": "subchapter-80",
+      "created_at": "2019-07-18T14:00:39.792Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 81,
+    "fields": {
+      "chapter": 11,
+      "title": "meditación trascendental, el zen, el yoga, el pilates y el vegetarianismo",
+      "slug": "subchapter-81",
+      "created_at": "2019-07-18T14:00:55.175Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 82,
+    "fields": {
+      "chapter": 11,
+      "title": "transmigración de las almas, reencarnación, karma y darma",
+      "slug": "subchapter-82",
+      "created_at": "2019-07-18T14:01:08.761Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 83,
+    "fields": {
+      "chapter": 11,
+      "title": "pretende desvirtuar y disolver el concepto cristiano de pecado",
+      "slug": "subchapter-83",
+      "created_at": "2019-07-18T14:01:18.923Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 84,
+    "fields": {
+      "chapter": 11,
+      "title": "la metafísica en la nueva era",
+      "slug": "subchapter-84",
+      "created_at": "2019-07-18T14:01:31.590Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 85,
+    "fields": {
+      "chapter": 11,
+      "title": "la falsa creencia de la vibración y la polaridad",
+      "slug": "subchapter-85",
+      "created_at": "2019-07-18T14:01:44.535Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 86,
+    "fields": {
+      "chapter": 11,
+      "title": "el feng shui",
+      "slug": "subchapter-86",
+      "created_at": "2019-07-18T14:01:55.114Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 87,
+    "fields": {
+      "chapter": 11,
+      "title": "el reiki y la imposición de manos",
+      "slug": "subchapter-87",
+      "created_at": "2019-07-18T14:02:45.910Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 88,
+    "fields": {
+      "chapter": 11,
+      "title": "la astrología",
+      "slug": "subchapter-88",
+      "created_at": "2019-07-18T14:03:01.982Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 89,
+    "fields": {
+      "chapter": 11,
+      "title": "quiromancia vs libre albedrío",
+      "slug": "subchapter-89",
+      "created_at": "2019-07-18T14:03:11.657Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 90,
+    "fields": {
+      "chapter": 11,
+      "title": "la interpretación de los sueños",
+      "slug": "subchapter-90",
+      "created_at": "2019-07-18T14:03:24.487Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 91,
+    "fields": {
+      "chapter": 11,
+      "title": "consultas a médium, espiritistas y consultar el tabaco",
+      "slug": "subchapter-91",
+      "created_at": "2019-07-18T14:03:47.670Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 92,
+    "fields": {
+      "chapter": 11,
+      "title": "gnosis",
+      "slug": "subchapter-92",
+      "created_at": "2019-07-18T14:03:59.009Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 93,
+    "fields": {
+      "chapter": 11,
+      "title": "La Masonería",
+      "slug": "subchapter-93",
+      "created_at": "2019-07-18T14:04:11.107Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 94,
+    "fields": {
+      "chapter": 11,
+      "title": "halloween: ‘cumpleaños del diablo’",
+      "slug": "subchapter-94",
+      "created_at": "2019-07-18T14:04:25.516Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 95,
+    "fields": {
+      "chapter": 11,
+      "title": "el yoga",
+      "slug": "subchapter-95",
+      "created_at": "2019-07-18T14:04:37.452Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 96,
+    "fields": {
+      "chapter": 11,
+      "title": "orientación sobre los tatuajes",
+      "slug": "subchapter-96",
+      "created_at": "2019-07-18T14:04:50.713Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 97,
+    "fields": {
+      "chapter": 12,
+      "title": "no les podemos decir ni ‘santeros’ ni ‘santería’",
+      "slug": "subchapter-97",
+      "created_at": "2019-07-18T14:06:59.886Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 98,
+    "fields": {
+      "chapter": 12,
+      "title": "¿tienes problemas y te dijeron que los orishas te van a ayudar?",
+      "slug": "subchapter-98",
+      "created_at": "2019-07-18T14:07:09.746Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 99,
+    "fields": {
+      "chapter": 12,
+      "title": "el reverso en la historia que cuentan",
+      "slug": "subchapter-99",
+      "created_at": "2019-07-18T14:08:14.561Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 100,
+    "fields": {
+      "chapter": 12,
+      "title": "la misma religión yoruba perpetúa en sus miembros la esclavitud",
+      "slug": "subchapter-100",
+      "created_at": "2019-07-18T14:08:25.023Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 101,
+    "fields": {
+      "chapter": 12,
+      "title": "la iglesia católica no es de origen europeo",
+      "slug": "subchapter-101",
+      "created_at": "2019-07-18T14:08:45.588Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 103,
+    "fields": {
+      "chapter": 12,
+      "title": "el pueblo elegido por dios fue el pueblo de israel; no el pueblo yoruba",
+      "slug": "subchapter-103",
+      "created_at": "2019-07-18T14:08:56.975Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 104,
+    "fields": {
+      "chapter": 12,
+      "title": "el único mediador entre dios y los hombres es jesucristo. no son los orishas",
+      "slug": "subchapter-104",
+      "created_at": "2019-07-18T14:09:07.804Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 105,
+    "fields": {
+      "chapter": 12,
+      "title": "deben decidirse: ¿o jesucristo o los orishas?",
+      "slug": "subchapter-105",
+      "created_at": "2019-07-18T14:09:25.708Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 106,
+    "fields": {
+      "chapter": 12,
+      "title": "¿por qué la religión yoruba no viene de dios?",
+      "slug": "subchapter-106",
+      "created_at": "2019-07-18T14:10:13.590Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 107,
+    "fields": {
+      "chapter": 12,
+      "title": "¿cambiarías a cristo por fábulas?",
+      "slug": "subchapter-107",
+      "created_at": "2019-07-18T14:10:27.415Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 108,
+    "fields": {
+      "chapter": 12,
+      "title": "la religión yoruba y la iglesia católica, direcciones opuestas",
+      "slug": "subchapter-108",
+      "created_at": "2019-07-18T14:10:37.096Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 109,
+    "fields": {
+      "chapter": 12,
+      "title": "sacrificios y collares",
+      "slug": "subchapter-109",
+      "created_at": "2019-07-18T14:10:50.360Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 110,
+    "fields": {
+      "chapter": 12,
+      "title": "las vestiduras blancas en la religión yoruba",
+      "slug": "subchapter-110",
+      "created_at": "2019-07-18T14:11:02.745Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 111,
+    "fields": {
+      "chapter": 12,
+      "title": "¿quieres salirte de la religión yoruba?",
+      "slug": "subchapter-111",
+      "created_at": "2019-07-18T14:11:14.452Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 112,
+    "fields": {
+      "chapter": 12,
+      "title": "carta de ayuda para quien busca salirse de la religión yoruba",
+      "slug": "subchapter-112",
+      "created_at": "2019-07-18T14:11:25.191Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 113,
+    "fields": {
+      "chapter": 13,
+      "title": "todas llevan al hombre a hacer cosas buenas",
+      "slug": "subchapter-113",
+      "created_at": "2019-07-18T14:25:37.430Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 114,
+    "fields": {
+      "chapter": 13,
+      "title": "evidencias de que la religión cristiana es la verdadera",
+      "slug": "subchapter-114",
+      "created_at": "2019-07-18T14:25:51.841Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 115,
+    "fields": {
+      "chapter": 13,
+      "title": "¿puede uno salvarse con cualquier religión?",
+      "slug": "subchapter-115",
+      "created_at": "2019-07-18T14:26:26.917Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 116,
+    "fields": {
+      "chapter": 13,
+      "title": "¿por qué la iglesia es necesaria para la salvación del hombre?",
+      "slug": "subchapter-116",
+      "created_at": "2019-07-18T14:26:40.002Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 117,
+    "fields": {
+      "chapter": 13,
+      "title": "¿por qué soy cristiano y no musulmán?",
+      "slug": "subchapter-117",
+      "created_at": "2019-07-18T14:27:03.365Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 118,
+    "fields": {
+      "chapter": 13,
+      "title": "¿cómo protegernos de derrumbes en la fe ante escándalos dentro de la iglesia?",
+      "slug": "subchapter-118",
+      "created_at": "2019-07-18T14:27:15.761Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 119,
+    "fields": {
+      "chapter": 14,
+      "title": "presentación del capítulo",
+      "slug": "subchapter-119",
+      "created_at": "2019-07-18T14:27:29.605Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 120,
+    "fields": {
+      "chapter": 14,
+      "title": "¿cuál es la postura católica sobre la homosexualidad?",
+      "slug": "subchapter-120",
+      "created_at": "2019-07-18T14:27:47.778Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 121,
+    "fields": {
+      "chapter": 14,
+      "title": "el mundo de la homosexualidad visto por dentro",
+      "slug": "subchapter-121",
+      "created_at": "2019-07-18T14:28:04.670Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 122,
+    "fields": {
+      "chapter": 14,
+      "title": "¿buscas ayuda para alguien con afectación lésbico-gay?",
+      "slug": "subchapter-122",
+      "created_at": "2019-07-18T14:28:21.323Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 123,
+    "fields": {
+      "chapter": 14,
+      "title": "lo que la ideología de género no dice",
+      "slug": "subchapter-123",
+      "created_at": "2019-07-18T14:28:32.578Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 124,
+    "fields": {
+      "chapter": 14,
+      "title": "la historia de david reimer",
+      "slug": "subchapter-124",
+      "created_at": "2019-07-18T14:28:48.969Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 125,
+    "fields": {
+      "chapter": 14,
+      "title": "¿cuál es la postura católica ante la ideología de género?",
+      "slug": "subchapter-125",
+      "created_at": "2019-07-18T14:29:03.454Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 126,
+    "fields": {
+      "chapter": 14,
+      "title": "la biología y la psicología le hablan a la ideología de género",
+      "slug": "subchapter-126",
+      "created_at": "2019-07-18T14:29:16.824Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 127,
+    "fields": {
+      "chapter": 14,
+      "title": "a la ideología de género las cuentas no le cuadran",
+      "slug": "subchapter-127",
+      "created_at": "2019-07-18T14:29:46.888Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 128,
+    "fields": {
+      "chapter": 15,
+      "title": "la inquisición: manipulación y falsificación de la historia",
+      "slug": "subchapter-128",
+      "created_at": "2019-07-18T14:30:01.654Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 129,
+    "fields": {
+      "chapter": 15,
+      "title": "dicen: “la iglesia católica se llena de riquezas y debería vender el vaticano para resolver el hambre del mundo.”",
+      "slug": "subchapter-129",
+      "created_at": "2019-07-18T14:30:17.399Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 130,
+    "fields": {
+      "chapter": 15,
+      "title": "respuestas a acusaciones de ‘ateos’",
+      "slug": "subchapter-130",
+      "created_at": "2019-07-18T14:30:28.114Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 131,
+    "fields": {
+      "chapter": 15,
+      "title": "desviaciones en la música cristiana",
+      "slug": "subchapter-131",
+      "created_at": "2019-07-18T14:30:38.005Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 132,
+    "fields": {
+      "chapter": 15,
+      "title": "riesgos y peligros de la música protestante",
+      "slug": "subchapter-132",
+      "created_at": "2019-07-18T14:30:52.849Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 133,
+    "fields": {
+      "chapter": 10,
+      "title": "¿te dijeron que en mt 23,8-10 dios prohibe decirle ‘padre’ o ‘maestro’ a alguien?",
+      "slug": "subchapter-133",
+      "created_at": "2019-07-22T15:38:21.669Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 134,
+    "fields": {
+      "chapter": 10,
+      "title": "dicen: “no es necesario creer en doctrinas para salvarse”",
+      "slug": "subchapter-134",
+      "created_at": "2019-07-22T20:25:43.292Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 135,
+    "fields": {
+      "chapter": 19,
+      "title": "razón por la que muchos se van de la  iglesia católica",
+      "slug": "subchapter-135",
+      "created_at": "2019-07-25T01:28:16.292Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 136,
+    "fields": {
+      "chapter": 19,
+      "title": "¿por qué esta guía bíblica?",
+      "slug": "subchapter-136",
+      "created_at": "2019-07-25T01:28:26.510Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 137,
+    "fields": {
+      "chapter": 19,
+      "title": "¿con jesucristo, sin maría, su mama?",
+      "slug": "subchapter-137",
+      "created_at": "2019-07-25T01:28:38.093Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 138,
+    "fields": {
+      "chapter": 19,
+      "title": "sistema de la relación ‘cristo - yo’ en  los hermanos esperados",
+      "slug": "subchapter-138",
+      "created_at": "2019-07-25T01:28:48.354Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 139,
+    "fields": {
+      "chapter": 19,
+      "title": "sistema de la relación ‘cristo – yo’ en  la doctrina católica",
+      "slug": "subchapter-139",
+      "created_at": "2019-07-25T01:28:56.943Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 140,
+    "fields": {
+      "chapter": 20,
+      "title": "renunciar a ser católico no es tan  sencillo.",
+      "slug": "subchapter-140",
+      "created_at": "2019-07-25T01:29:11.381Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 141,
+    "fields": {
+      "chapter": 20,
+      "title": "la santísima trinidad en la biblia.",
+      "slug": "subchapter-141",
+      "created_at": "2019-07-25T01:29:24.523Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 142,
+    "fields": {
+      "chapter": 20,
+      "title": "dicen: “jesucristo no es dios. era sólo  un gran profeta”.",
+      "slug": "subchapter-142",
+      "created_at": "2019-07-25T01:29:40.370Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 143,
+    "fields": {
+      "chapter": 20,
+      "title": "dios no se llama jehová.",
+      "slug": "subchapter-143",
+      "created_at": "2019-07-25T01:29:54.503Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 144,
+    "fields": {
+      "chapter": 21,
+      "title": "¿le faltan libros a las biblias  protestantes o le sobran a la biblia  católica?",
+      "slug": "subchapter-144",
+      "created_at": "2019-07-25T01:30:27.638Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 145,
+    "fields": {
+      "chapter": 21,
+      "title": "¿cómo sabemos que la biblia es palabra  de dios?",
+      "slug": "subchapter-145",
+      "created_at": "2019-07-25T01:31:19.163Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 146,
+    "fields": {
+      "chapter": 21,
+      "title": "lutero declaró: “sólo escritura”; la  tradición no.",
+      "slug": "subchapter-146",
+      "created_at": "2019-07-25T01:31:29.795Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 147,
+    "fields": {
+      "chapter": 21,
+      "title": "dicen: “todo está escrito en la biblia. si  no está allí no vale”",
+      "slug": "subchapter-147",
+      "created_at": "2019-07-25T01:31:50.211Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 148,
+    "fields": {
+      "chapter": 21,
+      "title": "dicen: “uno puede interpretar  libremente la biblia”",
+      "slug": "subchapter-148",
+      "created_at": "2019-07-25T01:32:00.908Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 149,
+    "fields": {
+      "chapter": 21,
+      "title": "dicen: “uno puede interpretar  libremente la biblia”",
+      "slug": "subchapter-149",
+      "created_at": "2019-07-25T01:32:01.395Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 150,
+    "fields": {
+      "chapter": 22,
+      "title": "dicen: “fue constantino quien fundó la  iglesia católica en el 313 d.c",
+      "slug": "subchapter-150",
+      "created_at": "2019-07-25T01:32:14.860Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 151,
+    "fields": {
+      "chapter": 22,
+      "title": "dicen: “jesucristo no fundó ninguna  iglesia”",
+      "slug": "subchapter-151",
+      "created_at": "2019-07-25T01:32:30.489Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 152,
+    "fields": {
+      "chapter": 22,
+      "title": "más bases bíblicas sobre el primado  de pedro.",
+      "slug": "subchapter-152",
+      "created_at": "2019-07-25T01:32:48.341Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 153,
+    "fields": {
+      "chapter": 22,
+      "title": "¿cómo sabemos que la iglesia católica  llega hasta jesús?",
+      "slug": "subchapter-153",
+      "created_at": "2019-07-25T01:32:57.113Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 154,
+    "fields": {
+      "chapter": 23,
+      "title": "grupos protestantes: conozca usted  quien los fundó.",
+      "slug": "subchapter-154",
+      "created_at": "2019-07-25T01:33:08.990Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 155,
+    "fields": {
+      "chapter": 23,
+      "title": "muchos dicen: “yo voy a fundar mi  propia iglesia”.",
+      "slug": "subchapter-155",
+      "created_at": "2019-07-25T01:33:17.983Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 156,
+    "fields": {
+      "chapter": 23,
+      "title": "dicen: “cualquiera puede ser pastor”.",
+      "slug": "subchapter-156",
+      "created_at": "2019-07-25T01:33:32.482Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 157,
+    "fields": {
+      "chapter": 23,
+      "title": "¿quién es pastor y quién es impostor?",
+      "slug": "subchapter-157",
+      "created_at": "2019-07-25T01:33:45.173Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 158,
+    "fields": {
+      "chapter": 23,
+      "title": "los llaman ‘lugares de culto’, pero no  lo son.",
+      "slug": "subchapter-158",
+      "created_at": "2019-07-25T01:33:55.887Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 159,
+    "fields": {
+      "chapter": 23,
+      "title": "la separación de hermanos de la iglesia  no es algo nuevo.",
+      "slug": "subchapter-159",
+      "created_at": "2019-07-25T01:34:06.200Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 160,
+    "fields": {
+      "chapter": 23,
+      "title": "dicen: “sólo cristo salva. no tengo  que creerles a los curas”.",
+      "slug": "subchapter-160",
+      "created_at": "2019-07-25T01:34:15.465Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 161,
+    "fields": {
+      "chapter": 24,
+      "title": "dicen: “no hay que bautizar a los niños”.",
+      "slug": "subchapter-161",
+      "created_at": "2019-07-25T01:34:32.523Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 162,
+    "fields": {
+      "chapter": 24,
+      "title": "¿sábado o domingo? ¿cuál es el día del  señor?",
+      "slug": "subchapter-162",
+      "created_at": "2019-07-25T01:34:43.159Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 163,
+    "fields": {
+      "chapter": 24,
+      "title": "la  presencia  de  cristo  en  la  hostia  es  real. no es un simple símbolo”.",
+      "slug": "subchapter-163",
+      "created_at": "2019-07-25T01:34:55.737Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 164,
+    "fields": {
+      "chapter": 24,
+      "title": "dicen:  “yo  me  confieso  directamente  con dios”.",
+      "slug": "subchapter-164",
+      "created_at": "2019-07-25T01:35:07.772Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 165,
+    "fields": {
+      "chapter": 24,
+      "title": "el   sacramento   de   la   confirmación.  enviados a evangelizar.",
+      "slug": "subchapter-165",
+      "created_at": "2019-07-25T01:37:46.207Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 166,
+    "fields": {
+      "chapter": 24,
+      "title": "recibo  el  poder  sanador  de  cristo  en  la   unción de los enfermos.",
+      "slug": "subchapter-166",
+      "created_at": "2019-07-25T01:38:05.227Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 167,
+    "fields": {
+      "chapter": 24,
+      "title": "dicen: “que los sacerdotes no se puedan  casar ni tener hijos no es bíblico”.",
+      "slug": "subchapter-167",
+      "created_at": "2019-07-25T01:38:18.510Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 168,
+    "fields": {
+      "chapter": 24,
+      "title": "el sacramento del matrimonio.",
+      "slug": "subchapter-168",
+      "created_at": "2019-07-25T01:38:29.686Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 169,
+    "fields": {
+      "chapter": 25,
+      "title": "dicen: “maría y lo santos no pueden  hacer nada porque están muertos.",
+      "slug": "subchapter-169",
+      "created_at": "2019-07-25T01:38:46.385Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 170,
+    "fields": {
+      "chapter": 25,
+      "title": "dicen: “el único mediador es cristo; lo  demás es idolatría”.",
+      "slug": "subchapter-170",
+      "created_at": "2019-07-25T01:38:58.319Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 171,
+    "fields": {
+      "chapter": 25,
+      "title": "dicen: “el único santo es jesucristo. eso  de los santos no está en la biblia”.",
+      "slug": "subchapter-171",
+      "created_at": "2019-07-25T01:39:08.676Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 172,
+    "fields": {
+      "chapter": 25,
+      "title": "dicen: “no hay que pedirle a los santos.  el único intercesor es cristo”.",
+      "slug": "subchapter-172",
+      "created_at": "2019-07-25T01:39:16.594Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 173,
+    "fields": {
+      "chapter": 25,
+      "title": "dicen: “maría no es madre de dios ni  de la iglesia”",
+      "slug": "subchapter-173",
+      "created_at": "2019-07-25T01:39:31.514Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 174,
+    "fields": {
+      "chapter": 25,
+      "title": "dicen: “maría tuvo más hijos”",
+      "slug": "subchapter-174",
+      "created_at": "2019-07-25T01:39:45.816Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 175,
+    "fields": {
+      "chapter": 25,
+      "title": "diversos significados bíblicos de la  palabra ‘hermanos’",
+      "slug": "subchapter-175",
+      "created_at": "2019-07-25T01:39:56.415Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 176,
+    "fields": {
+      "chapter": 25,
+      "title": "¿por qué rezan el rosario si no está en  la biblia y es vana repetidera?",
+      "slug": "subchapter-176",
+      "created_at": "2019-07-25T01:40:07.721Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 177,
+    "fields": {
+      "chapter": 25,
+      "title": "¿dónde sale que maría fue llevada al  cielo?",
+      "slug": "subchapter-177",
+      "created_at": "2019-07-25T01:40:19.329Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 178,
+    "fields": {
+      "chapter": 24,
+      "title": "dicen: “maría es una mujer como otras.  no hay que venerarla”",
+      "slug": "subchapter-178",
+      "created_at": "2019-07-25T01:40:32.416Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 179,
+    "fields": {
+      "chapter": 26,
+      "title": "dicen: “los católicos son idólatras”",
+      "slug": "subchapter-179",
+      "created_at": "2019-07-25T01:40:50.111Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 180,
+    "fields": {
+      "chapter": 26,
+      "title": "esculturas mandadas a construir para  dar culto a dios.",
+      "slug": "subchapter-180",
+      "created_at": "2019-07-25T01:41:00.697Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 181,
+    "fields": {
+      "chapter": 26,
+      "title": "“le rezan a un cristo de madera. adoran  un pedazo de palo”.",
+      "slug": "subchapter-181",
+      "created_at": "2019-07-25T01:41:13.736Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 182,
+    "fields": {
+      "chapter": 9,
+      "title": "dicen: “los católicos invocan muertos, y  eso está prohibido por dios.”",
+      "slug": "subchapter-182",
+      "created_at": "2019-07-25T01:41:27.464Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 183,
+    "fields": {
+      "chapter": 9,
+      "title": "¿qué nos enseña la biblia sobre la  oración por los difuntos?",
+      "slug": "subchapter-183",
+      "created_at": "2019-07-25T01:41:36.432Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 184,
+    "fields": {
+      "chapter": 9,
+      "title": "dicen: “eso del purgatorio es un invento  de los católicos”",
+      "slug": "subchapter-184",
+      "created_at": "2019-07-25T01:41:48.157Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 185,
+    "fields": {
+      "chapter": 28,
+      "title": "dicen: “sólo me basta la fe para  salvarme. las obras no”.",
+      "slug": "subchapter-185",
+      "created_at": "2019-07-25T01:42:16.372Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 186,
+    "fields": {
+      "chapter": 28,
+      "title": "¿si no pagas el diezmo al pastor eres  ladrón?",
+      "slug": "subchapter-186",
+      "created_at": "2019-07-25T01:42:26.071Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 187,
+    "fields": {
+      "chapter": 28,
+      "title": "dicen: “la iglesia católica es la gran  ramera del apocalipsis”",
+      "slug": "subchapter-187",
+      "created_at": "2019-07-25T01:42:39.299Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 188,
+    "fields": {
+      "chapter": 28,
+      "title": "dicen: “no llamarás ‘padre’ a nadie en  la tierra...” (mt 23, 9-10)",
+      "slug": "subchapter-188",
+      "created_at": "2019-07-25T01:42:52.276Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 189,
+    "fields": {
+      "chapter": 28,
+      "title": "dicen: “dios prohíbe las transfusiones  de sangre”",
+      "slug": "subchapter-189",
+      "created_at": "2019-07-25T01:43:05.507Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 190,
+    "fields": {
+      "chapter": 28,
+      "title": "dicen: “se salvan solo 144.000”",
+      "slug": "subchapter-190",
+      "created_at": "2019-07-25T01:43:15.436Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 191,
+    "fields": {
+      "chapter": 28,
+      "title": "¿existen alimentos impuros?",
+      "slug": "subchapter-191",
+      "created_at": "2019-07-25T01:43:23.574Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 192,
+    "fields": {
+      "chapter": 28,
+      "title": "desviaciones en la música cristiana.",
+      "slug": "subchapter-192",
+      "created_at": "2019-07-25T01:43:43.449Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 193,
+    "fields": {
+      "chapter": 28,
+      "title": "riesgos y peligros de la música  protestante.",
+      "slug": "subchapter-193",
+      "created_at": "2019-07-25T01:43:54.610Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 194,
+    "fields": {
+      "chapter": 29,
+      "title": "no los llames ‘santeros’ ni ‘santería’.",
+      "slug": "subchapter-194",
+      "created_at": "2019-07-25T01:44:05.952Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 195,
+    "fields": {
+      "chapter": 29,
+      "title": "testimonios  cristianos  y  yorubas  en  la  colonia enormes diferencias .",
+      "slug": "subchapter-195",
+      "created_at": "2019-07-25T01:44:15.779Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 196,
+    "fields": {
+      "chapter": 29,
+      "title": "¿tienes  problemas  y  te  dijeron  que  los   orishas te iban a ayudar?",
+      "slug": "subchapter-196",
+      "created_at": "2019-07-25T01:45:00.572Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 197,
+    "fields": {
+      "chapter": 29,
+      "title": "el pueblo elegido por dios fue israel; no  el yoruba.",
+      "slug": "subchapter-197",
+      "created_at": "2019-07-25T01:45:13.393Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 198,
+    "fields": {
+      "chapter": 29,
+      "title": "dios prohíbe la hechicería, el  espiritismo, la brujería.",
+      "slug": "subchapter-198",
+      "created_at": "2019-07-25T01:45:22.490Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 199,
+    "fields": {
+      "chapter": 29,
+      "title": "carta de ayuda para quien busca salirse  de la religión yoruba.",
+      "slug": "subchapter-199",
+      "created_at": "2019-07-25T01:45:49.367Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 200,
+    "fields": {
+      "chapter": 30,
+      "title": "¿cuál es la postura católica sobre la  homosexualidad?",
+      "slug": "subchapter-200",
+      "created_at": "2019-07-25T01:46:06.810Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 201,
+    "fields": {
+      "chapter": 30,
+      "title": "el mundo de la homosexualidad visto  por dentro.",
+      "slug": "subchapter-201",
+      "created_at": "2019-07-25T01:46:17.453Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 202,
+    "fields": {
+      "chapter": 30,
+      "title": "el mundo lésbico-gay es auto- destructivo.",
+      "slug": "subchapter-202",
+      "created_at": "2019-07-25T01:46:27.476Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 203,
+    "fields": {
+      "chapter": 30,
+      "title": "¿buscas ayuda para alguien con  afectación lésbico-gay?",
+      "slug": "subchapter-203",
+      "created_at": "2019-07-25T01:46:35.843Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 204,
+    "fields": {
+      "chapter": 30,
+      "title": "lo que la ideología de género no dice.",
+      "slug": "subchapter-204",
+      "created_at": "2019-07-25T01:46:52.715Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 205,
+    "fields": {
+      "chapter": 30,
+      "title": "la historia de david raimer.",
+      "slug": "subchapter-205",
+      "created_at": "2019-07-25T01:47:03.095Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 206,
+    "fields": {
+      "chapter": 30,
+      "title": "¿cuál es la postura católica ante la  ideología de género?",
+      "slug": "subchapter-206",
+      "created_at": "2019-07-25T01:47:13.360Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 207,
+    "fields": {
+      "chapter": 31,
+      "title": "introducción",
+      "slug": "subchapter-207",
+      "created_at": "2019-07-25T01:47:29.700Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 208,
+    "fields": {
+      "chapter": 31,
+      "title": "situación a resolver (¿qué sucede?).",
+      "slug": "subchapter-208",
+      "created_at": "2019-07-25T01:47:45.220Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 209,
+    "fields": {
+      "chapter": 31,
+      "title": "¿qué es? (definición)",
+      "slug": "subchapter-209",
+      "created_at": "2019-07-25T01:47:52.556Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 210,
+    "fields": {
+      "chapter": 31,
+      "title": "¿para qué? (objetivo)",
+      "slug": "subchapter-210",
+      "created_at": "2019-07-25T01:48:09.298Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 211,
+    "fields": {
+      "chapter": 31,
+      "title": "¿por qué? (justificación)",
+      "slug": "subchapter-211",
+      "created_at": "2019-07-25T01:48:18.932Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 212,
+    "fields": {
+      "chapter": 31,
+      "title": "¿para quién? (destinatario)",
+      "slug": "subchapter-212",
+      "created_at": "2019-07-25T01:48:28.014Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 213,
+    "fields": {
+      "chapter": 31,
+      "title": "¿cómo? (metodología)",
+      "slug": "subchapter-213",
+      "created_at": "2019-07-25T01:48:38.711Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 214,
+    "fields": {
+      "chapter": 31,
+      "title": "¿con qué? (recursos materiales)",
+      "slug": "subchapter-214",
+      "created_at": "2019-07-25T01:48:50.435Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 215,
+    "fields": {
+      "chapter": 31,
+      "title": "¿cuándo? (duración)",
+      "slug": "subchapter-215",
+      "created_at": "2019-07-25T01:49:01.536Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 216,
+    "fields": {
+      "chapter": 31,
+      "title": "¿quiénes? (recursos humanos)",
+      "slug": "subchapter-216",
+      "created_at": "2019-07-25T01:49:10.183Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 217,
+    "fields": {
+      "chapter": 31,
+      "title": "¿dónde?",
+      "slug": "subchapter-217",
+      "created_at": "2019-07-25T01:49:18.841Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 218,
+    "fields": {
+      "chapter": 31,
+      "title": "¿cómo llevar la misión vuelve a casa a  tu comunidad?",
+      "slug": "subchapter-218",
+      "created_at": "2019-07-25T01:49:29.308Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 219,
+    "fields": {
+      "chapter": 32,
+      "title": "misioneros",
+      "slug": "subchapter-219",
+      "created_at": "2019-07-25T01:49:40.451Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 220,
+    "fields": {
+      "chapter": 32,
+      "title": "cristiano y católico soy",
+      "slug": "subchapter-220",
+      "created_at": "2019-07-25T01:49:48.500Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 221,
+    "fields": {
+      "chapter": 32,
+      "title": "jesucristo es dios",
+      "slug": "subchapter-221",
+      "created_at": "2019-07-25T01:49:55.532Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 222,
+    "fields": {
+      "chapter": 32,
+      "title": "jesucristo es dios",
+      "slug": "subchapter-222",
+      "created_at": "2019-07-25T01:49:56.144Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 223,
+    "fields": {
+      "chapter": 32,
+      "title": "la trinidad en la biblia",
+      "slug": "subchapter-223",
+      "created_at": "2019-07-25T01:50:04.757Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 224,
+    "fields": {
+      "chapter": 32,
+      "title": "espíritu santo, eres dios",
+      "slug": "subchapter-224",
+      "created_at": "2019-07-25T01:50:11.953Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 225,
+    "fields": {
+      "chapter": 32,
+      "title": "cristo eucaristía",
+      "slug": "subchapter-225",
+      "created_at": "2019-07-25T01:50:20.541Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 226,
+    "fields": {
+      "chapter": 32,
+      "title": "el cristiano verdadero",
+      "slug": "subchapter-226",
+      "created_at": "2019-07-25T01:50:30.342Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 227,
+    "fields": {
+      "chapter": 32,
+      "title": "no digas: “ya soy salvo”",
+      "slug": "subchapter-227",
+      "created_at": "2019-07-25T01:50:37.877Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 228,
+    "fields": {
+      "chapter": 32,
+      "title": "la intercesión de los santos",
+      "slug": "subchapter-228",
+      "created_at": "2019-07-25T01:50:46.568Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 229,
+    "fields": {
+      "chapter": 32,
+      "title": "las procesiones son bíblicas",
+      "slug": "subchapter-229",
+      "created_at": "2019-07-25T01:50:53.542Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 230,
+    "fields": {
+      "chapter": 32,
+      "title": "los artesanos de dios",
+      "slug": "subchapter-230",
+      "created_at": "2019-07-25T01:51:00.856Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 231,
+    "fields": {
+      "chapter": 32,
+      "title": "la fundación de la iglesia",
+      "slug": "subchapter-231",
+      "created_at": "2019-07-25T01:51:08.476Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 232,
+    "fields": {
+      "chapter": 32,
+      "title": "no es el mismo cristo",
+      "slug": "subchapter-232",
+      "created_at": "2019-07-25T01:51:15.081Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 233,
+    "fields": {
+      "chapter": 32,
+      "title": "clamor por las imágenes profanadas",
+      "slug": "subchapter-233",
+      "created_at": "2019-07-25T01:51:22.782Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 234,
+    "fields": {
+      "chapter": 32,
+      "title": "la iglesia de cristo es sólo una",
+      "slug": "subchapter-234",
+      "created_at": "2019-07-25T01:51:29.308Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 235,
+    "fields": {
+      "chapter": 32,
+      "title": "dicen que soy idólatra",
+      "slug": "subchapter-235",
+      "created_at": "2019-07-25T01:51:36.185Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 236,
+    "fields": {
+      "chapter": 32,
+      "title": "su madre es virgen",
+      "slug": "subchapter-236",
+      "created_at": "2019-07-25T01:51:42.596Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 237,
+    "fields": {
+      "chapter": 32,
+      "title": "el santo rosario en la biblia",
+      "slug": "subchapter-237",
+      "created_at": "2019-07-25T01:51:50.753Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 238,
+    "fields": {
+      "chapter": 32,
+      "title": "dicen que son hijos de maría",
+      "slug": "subchapter-238",
+      "created_at": "2019-07-25T01:51:59.088Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 239,
+    "fields": {
+      "chapter": 32,
+      "title": "orgullosos de la cruz de cristo",
+      "slug": "subchapter-239",
+      "created_at": "2019-07-25T01:52:05.266Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 240,
+    "fields": {
+      "chapter": 32,
+      "title": "madero de amor",
+      "slug": "subchapter-240",
+      "created_at": "2019-07-25T01:52:11.944Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 241,
+    "fields": {
+      "chapter": 32,
+      "title": "la puerta de la fe",
+      "slug": "subchapter-241",
+      "created_at": "2019-07-25T01:52:18.677Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 242,
+    "fields": {
+      "chapter": 32,
+      "title": "bautizados desde niños",
+      "slug": "subchapter-242",
+      "created_at": "2019-07-25T01:52:25.583Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 243,
+    "fields": {
+      "chapter": 32,
+      "title": "derecho de los niños al bautismo",
+      "slug": "subchapter-243",
+      "created_at": "2019-07-25T01:52:32.563Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 244,
+    "fields": {
+      "chapter": 32,
+      "title": "canonización de los santos",
+      "slug": "subchapter-244",
+      "created_at": "2019-07-25T01:52:39.759Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 245,
+    "fields": {
+      "chapter": 32,
+      "title": "¿por qué bautizan a los niños?",
+      "slug": "subchapter-245",
+      "created_at": "2019-07-25T01:52:46.197Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 246,
+    "fields": {
+      "chapter": 32,
+      "title": "confesarse ante un sacerdote",
+      "slug": "subchapter-246",
+      "created_at": "2019-07-25T01:52:53.117Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 247,
+    "fields": {
+      "chapter": 32,
+      "title": "eucaristía",
+      "slug": "subchapter-247",
+      "created_at": "2019-07-25T01:53:00.946Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 248,
+    "fields": {
+      "chapter": 32,
+      "title": "ella es maría (apocalipsis 12)",
+      "slug": "subchapter-248",
+      "created_at": "2019-07-25T01:53:10.551Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 249,
+    "fields": {
+      "chapter": 32,
+      "title": "¿purgatorio?",
+      "slug": "subchapter-249",
+      "created_at": "2019-07-25T01:53:17.628Z"
+    }
+  },
+  {
+    "model": "app.subchapter",
+    "pk": 250,
+    "fields": {
+      "chapter": 31,
+      "title": "¿dónde?",
+      "slug": "subchapter-250",
+      "created_at": "2019-07-28T23:34:57.643Z"
+    }
+  }
+]
