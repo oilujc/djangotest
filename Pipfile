@@ -11,6 +11,7 @@ psycopg2 = "*"
 pillow = "*"
 django-ckeditor = "*"
 djangorestframework = "*"
+sorl-thumbnail = "*"
 
 [requires]
 python_version = "3.6"

@@ -1,0 +1,22 @@
+{% load static %}
+{% if book %}
+<header class="{{book.slug}}">
+	<div class="container text-center">
+
+		<img src="{% static "logo.png" %}" class="round-img img-thumbnail img-fluid" alt="{{book.subtitle|capfirst}} logo">
+
+		<h1 style="margin-top:5px;">{{book.title|capfirst}}</h1>
+		<p class="lead">{{book.subtitle|capfirst}}</p>
+
+		<p>
+			Elaborada por: <br>
+			<b>Pbro. Héctor Pernía, mfc</b> <br>
+
+			Con colaboración de: <br>
+			<b>Sandra Rodríguez, mfc</b> <br>
+			<b>Andy Rodríguez, mfc</b> <br>
+			Y los censores eclesiásticos.
+		</p>
+	</div>
+</header>
+{% endif %}

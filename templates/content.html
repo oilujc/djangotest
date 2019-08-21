@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
+        <article>
+          <!-- Title -->
+          <h1 class="mt-4">{{object.title|capfirst}}</h1>
+          <hr>
+          {% if object.pagecontent_set.all %}
+            <!-- Post Content -->
+            {% for content in object.pagecontent_set.all %}
+              <div id="{{content.number}}">{{content.content|safe}}</div>
+            {% endfor %}
+          {% endif %}
+          
+          {% if object.content_set.all %}
+            <!-- Post Content -->
+            {% for content in object.content_set.all %}
+              <div id="{{content.number}}">{{content.content|safe}}</div>
+            {% endfor %}
+          {% endif %}
+        </article>
+      </div>
+      {% include "sidebar.html" %}
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+{% endblock content %}

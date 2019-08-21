@@ -1,0 +1,350 @@
+[
+  {
+    "model": "app.chapter",
+    "pk": 1,
+    "fields": {
+      "book": 1,
+      "title": "sin ir a las causas, ¿cómo sanar las enfermedades en la fe?",
+      "chapter": 1,
+      "slug": "chapter-1",
+      "created_at": "2019-07-09T00:07:45.306Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 2,
+    "fields": {
+      "book": 1,
+      "title": "la santísima trinidad y el nombre de dios",
+      "chapter": 2,
+      "slug": "chapter-2",
+      "created_at": "2019-07-09T01:05:17.170Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 3,
+    "fields": {
+      "book": 1,
+      "title": "católicos, cristianos y evangélicos",
+      "chapter": 3,
+      "slug": "chapter-3",
+      "created_at": "2019-07-15T20:38:05.116Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 4,
+    "fields": {
+      "book": 1,
+      "title": "la biblia y la tradición",
+      "chapter": 4,
+      "slug": "chapter-4",
+      "created_at": "2019-07-15T20:38:33.591Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 5,
+    "fields": {
+      "book": 1,
+      "title": "la iglesia y el papa",
+      "chapter": 5,
+      "slug": "chapter-5",
+      "created_at": "2019-07-15T20:38:56.479Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 6,
+    "fields": {
+      "book": 1,
+      "title": "los sacramentos",
+      "chapter": 6,
+      "slug": "chapter-6",
+      "created_at": "2019-07-15T20:39:23.913Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 7,
+    "fields": {
+      "book": 1,
+      "title": "la virgen maría y los santos",
+      "chapter": 7,
+      "slug": "chapter-7",
+      "created_at": "2019-07-15T20:39:48.785Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 8,
+    "fields": {
+      "book": 1,
+      "title": "las imágenes y la cruz",
+      "chapter": 8,
+      "slug": "chapter-8",
+      "created_at": "2019-07-15T20:40:10.879Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 9,
+    "fields": {
+      "book": 1,
+      "title": "el misterio de la muerte y el más allá",
+      "chapter": 9,
+      "slug": "chapter-9",
+      "created_at": "2019-07-15T20:40:44.213Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 10,
+    "fields": {
+      "book": 1,
+      "title": "falsas prohibiciones y doctrinas",
+      "chapter": 10,
+      "slug": "chapter-10",
+      "created_at": "2019-07-15T20:41:08.833Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 11,
+    "fields": {
+      "book": 1,
+      "title": "idolatrías modernas",
+      "chapter": 11,
+      "slug": "chapter-11",
+      "created_at": "2019-07-15T20:41:33.093Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 12,
+    "fields": {
+      "book": 1,
+      "title": "si los yorubas (´santeros’) conocieran a cristo",
+      "chapter": 12,
+      "slug": "chapter-12",
+      "created_at": "2019-07-15T20:42:09.599Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 13,
+    "fields": {
+      "book": 1,
+      "title": "¿por qué no todas las religiones son iguales?",
+      "chapter": 13,
+      "slug": "chapter-13",
+      "created_at": "2019-07-15T20:42:36.782Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 14,
+    "fields": {
+      "book": 1,
+      "title": "la sociedad lésbico-gay y la ideología de género",
+      "chapter": 14,
+      "slug": "chapter-14",
+      "created_at": "2019-07-15T20:43:00.372Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 15,
+    "fields": {
+      "book": 1,
+      "title": "temas varios",
+      "chapter": 15,
+      "slug": "chapter-15",
+      "created_at": "2019-07-15T20:43:35.495Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 19,
+    "fields": {
+      "book": 2,
+      "title": "temas introductorios",
+      "chapter": 1,
+      "slug": "chapter-1-ji1a",
+      "created_at": "2019-07-25T01:17:28.700Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 20,
+    "fields": {
+      "book": 2,
+      "title": "temas básicos de nuestra fe",
+      "chapter": 2,
+      "slug": "chapter-2-2jsx",
+      "created_at": "2019-07-25T01:17:51.842Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 21,
+    "fields": {
+      "book": 2,
+      "title": "la sagrada escritura y la tradición",
+      "chapter": 3,
+      "slug": "chapter-3-tu4d",
+      "created_at": "2019-07-25T01:18:12.706Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 22,
+    "fields": {
+      "book": 2,
+      "title": "la iglesia de cristo y primado de pedro",
+      "chapter": 4,
+      "slug": "chapter-4-7bxc",
+      "created_at": "2019-07-25T01:18:35.754Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 23,
+    "fields": {
+      "book": 2,
+      "title": "dividir la iglesia es enfrentar a cristo",
+      "chapter": 5,
+      "slug": "chapter-5-fqgb",
+      "created_at": "2019-07-25T01:18:54.086Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 24,
+    "fields": {
+      "book": 2,
+      "title": "los sacramentos, puentes de la gracia  de dios",
+      "chapter": 6,
+      "slug": "chapter-6-tpr9",
+      "created_at": "2019-07-25T01:22:41.627Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 25,
+    "fields": {
+      "book": 2,
+      "title": "la virgen maría y los santos",
+      "chapter": 7,
+      "slug": "chapter-7-fwts",
+      "created_at": "2019-07-25T01:22:58.071Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 26,
+    "fields": {
+      "book": 2,
+      "title": "las imágenes cristianas y la cruz",
+      "chapter": 8,
+      "slug": "chapter-8-xpy1",
+      "created_at": "2019-07-25T01:23:20.949Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 27,
+    "fields": {
+      "book": 2,
+      "title": "el misterio de la muerte y el más allá",
+      "chapter": 9,
+      "slug": "chapter-9-prxt",
+      "created_at": "2019-07-25T01:23:36.641Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 28,
+    "fields": {
+      "book": 2,
+      "title": "temas varios",
+      "chapter": 10,
+      "slug": "chapter-10-l6dq",
+      "created_at": "2019-07-25T01:23:58.680Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 29,
+    "fields": {
+      "book": 2,
+      "title": "la mal llamada ‘santería’",
+      "chapter": 11,
+      "slug": "chapter-11-pdki",
+      "created_at": "2019-07-25T01:24:13.755Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 30,
+    "fields": {
+      "book": 2,
+      "title": "ideología de género",
+      "chapter": 12,
+      "slug": "chapter-12-lz19",
+      "created_at": "2019-07-25T01:24:34.674Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 31,
+    "fields": {
+      "book": 2,
+      "title": "proyecto ‘vuelve a casa’.",
+      "chapter": 13,
+      "slug": "chapter-13-iuse",
+      "created_at": "2019-07-25T01:24:55.684Z",
+      "page_type": "ch"
+    }
+  },
+  {
+    "model": "app.chapter",
+    "pk": 32,
+    "fields": {
+      "book": 2,
+      "title": "cancionero hospitalitos de la fe",
+      "chapter": 14,
+      "slug": "chapter-14-q0vh",
+      "created_at": "2019-07-25T01:25:10.568Z",
+      "page_type": "ch"
+    }
+  }
+]

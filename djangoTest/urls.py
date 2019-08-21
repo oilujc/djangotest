@@ -18,8 +18,16 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
+from .views import HomeView, BookView, ChapterView, SubChapterView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    path('', HomeView.as_view(), name="home"),
+
+    path('<slug:slug>/', BookView.as_view(), name="book"),
+    path('<slug:book>/<slug:slug>/', ChapterView.as_view(), name="chapter"),
+    path('<slug:book>/<slug:chapter>/<slug:slug>', SubChapterView.as_view(), name="subchapter"),
 
     #Api
     path('api/', include('api.urls', namespace='api')),
