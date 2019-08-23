@@ -7,15 +7,15 @@
             <ul>
               {% for chapter in book.chapter_set.pages %}
               <li class="mb-3">
-                <a href="{% url 'chapter' book=book.slug slug=chapter.slug %}"><span>{{chapter.title|capfirst}}</span></a>
+                <a href="{% url 'chapter' book=book.slug slug=chapter.slug %}"><span>{{chapter.title}}</span></a>
               </li>
               {% endfor %}
               {% for chapter in book.chapter_set.chapters %}
               <li class="mb-3">
-                <span><b>Capítulo {{chapter.chapter}}</b> {{chapter.title|capfirst}}</span>
+                <span><b>Capítulo {{chapter.chapter}}</b> {{chapter.title}}</span>
                 <ul>
                   {% for subchapter in chapter.subchapter_set.all %}
-                    <li><a href="{% url 'subchapter' book=book.slug chapter=chapter.slug slug=subchapter.slug %}">{{subchapter.title|capfirst}}</a></li>
+                    <li><a href="{% url 'subchapter' book=book.slug chapter=chapter.slug slug=subchapter.slug %}">{{subchapter.title}}</a></li>
                   {% endfor %}
                 </ul>
               </li>
