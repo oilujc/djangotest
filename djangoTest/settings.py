@@ -38,8 +38,6 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'rest_framework',
-
-    'sorl.thumbnail',
 ]
 
 REST_FRAMEWORK = {

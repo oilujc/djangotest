@@ -38,10 +38,10 @@ class BookAdmin(admin.ModelAdmin):
 	search_fields = ['title','subtitle']
 
 class ChapterAdmin(admin.ModelAdmin):
-	search_fields = ['number','subchapter__title']
+	search_fields = ['book__title','title','chapter','page_type']
 
 class SubChapterAdmin(admin.ModelAdmin):
-	search_fields = ['number','subchapter__title']
+	search_fields = ['chapter__title','title']
 
 class ContentAdmin(admin.ModelAdmin):
 	form = ContentAdminForm
