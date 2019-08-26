@@ -69,6 +69,7 @@ for book in books:
 				number += 1
 
 for chapter in chapters:
+	chapter.title = chapter.title.capitalize()
 	for word in word_list:
 		if word.lower() in chapter.title:
 			chapter.title = chapter.title.replace(word.lower(),word)
@@ -76,6 +77,7 @@ for chapter in chapters:
 	chapter.save()
 
 for subchapter in subchapters:
+	subchapter.title = subchapter.title.capitalize()
 	for word in word_sc_list:
 		if word.lower() in subchapter.title:
 			print(word)
