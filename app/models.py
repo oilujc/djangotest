@@ -68,7 +68,7 @@ class Chapter(models.Model):
 		ordering = ['chapter', 'pk']
 
 	def __str__(self):
-		return self.title
+		return f'{self.title} - {self.book.title}'
 
 class PageContent(models.Model):
 
@@ -108,6 +108,7 @@ class Content(models.Model):
 	content = RichTextUploadingField()
 	number = models.IntegerField(default=0)
 	created_at = models.DateTimeField(auto_now_add=True)
+	position = models.IntegerField(blank=True,null=True)
 
 	class Meta:
 		verbose_name = "Content"
@@ -115,7 +116,7 @@ class Content(models.Model):
 		ordering = ['number','pk']
 
 	def __str__(self):
-		return "{}) {}".format(self.pk, self.subchapter.title)
+		return "{}) {}".format(self.number, self.subchapter.title)
 
 @receiver(post_save, sender=Book)
 def post_save_book(sender, instance,created, **kwargs):

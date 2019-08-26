@@ -5,10 +5,12 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangoTest.settings")
 django.setup()
 
-from app.models import Chapter, SubChapter
+from app.models import Book, Chapter, SubChapter
+
 
 chapters = Chapter.objects.all()
 subchapters = SubChapter.objects.all()
+books = Book.objects.all()
 
 word_list = ["Trinidad",
 			"Santísima",
@@ -52,13 +54,26 @@ word_sc_list = ["Trinidad",
 			"jehová",
 			"Virgen"]
 
+number = 8
+for book in books:
+	print(book.title)
+	for chapter in book.chapter_set.filter(page_type="ch"):
+		print("Capítulo {}) {}".format(chapter.chapter,chapter.title))
+		for subchapter in chapter.subchapter_set.all():
+			print(subchapter.title)
 
-# for chapter in chapters:
-# 	for word in word_list:
-# 		if word.lower() in chapter.title:
-# 			chapter.title = chapter.title.replace(word.lower(),word)
+			for content in subchapter.content_set.all().order_by("number").order_by("pk").order_by('position'):
+				content.number = number
+				print(content.number)
+				content.save()
+				number += 1
 
-# 	chapter.save()
+for chapter in chapters:
+	for word in word_list:
+		if word.lower() in chapter.title:
+			chapter.title = chapter.title.replace(word.lower(),word)
+
+	chapter.save()
 
 for subchapter in subchapters:
 	for word in word_sc_list:

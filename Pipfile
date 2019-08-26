@@ -12,6 +12,7 @@ pillow = "*"
 django-ckeditor = "*"
 djangorestframework = "*"
 sorl-thumbnail = "*"
+python-docx = "*"
 
 [requires]
 python_version = "3.6"
