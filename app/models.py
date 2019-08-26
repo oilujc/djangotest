@@ -68,7 +68,7 @@ class Chapter(models.Model):
 		ordering = ['chapter', 'pk']
 
 	def __str__(self):
-		return self.title
+		return f'{self.title} - {self.book.title}'
 
 class PageContent(models.Model):
 
@@ -97,6 +97,7 @@ class SubChapter(models.Model):
 	class Meta:
 		verbose_name = "SubChapter"
 		verbose_name_plural = "SubChapters"
+		ordering = ['pk']
 
 	def __str__(self):
 		return self.title
@@ -107,6 +108,7 @@ class Content(models.Model):
 	content = RichTextUploadingField()
 	number = models.IntegerField(default=0)
 	created_at = models.DateTimeField(auto_now_add=True)
+	position = models.IntegerField(blank=True,null=True)
 
 	class Meta:
 		verbose_name = "Content"
@@ -114,32 +116,28 @@ class Content(models.Model):
 		ordering = ['number','pk']
 
 	def __str__(self):
-		return "{}) {}".format(self.pk, self.subchapter.title)
+		return "{}) {}".format(self.number, self.subchapter.title)
 
 @receiver(post_save, sender=Book)
 def post_save_book(sender, instance,created, **kwargs):
-	instance.title = instance.title.lower()
 	if not instance.slug:
 		instance.slug = "{0}".format(unique_slug_generator(instance))
 		instance.save()
 
 @receiver(post_save, sender=Chapter)
 def post_save_chapter(sender, instance,created, **kwargs):
-	instance.title = instance.title.lower()
 	if not instance.slug:
 		instance.slug = "{0}".format(unique_slug_generator(instance, "chapter-{}".format(instance.chapter)))
 		instance.save()
 
 @receiver(post_save, sender=SubChapter)
 def post_save_sub_chapter(sender, instance,created, **kwargs):
-	instance.title = instance.title.lower()
 	if not instance.slug:
 		instance.slug = "{0}".format(unique_slug_generator(instance, "subchapter-{}".format(instance.pk)))
 		instance.save()
 
 @receiver(post_save, sender=Section)
 def post_save_section(sender, instance,created, **kwargs):
-	instance.title = instance.title.lower()
 	if not instance.slug:
 		instance.slug = "{0}".format(unique_slug_generator(instance))
 		instance.save()

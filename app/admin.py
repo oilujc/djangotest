@@ -29,19 +29,32 @@ class ContentAdminForm(forms.ModelForm):
 		model = Content
 		fields = '__all__'
 
-class ContentAdmin(admin.ModelAdmin):
-    form = ContentAdminForm
+# -----------------------------------------------------------------
 
 class SectionAdmin(admin.ModelAdmin):
-    form = SectionAdminForm
+	form = SectionAdminForm
+
+class BookAdmin(admin.ModelAdmin):
+	search_fields = ['title','subtitle']
+
+class ChapterAdmin(admin.ModelAdmin):
+	search_fields = ['book__title','title','chapter','page_type']
+
+class SubChapterAdmin(admin.ModelAdmin):
+	search_fields = ['chapter__title','title']
+
+class ContentAdmin(admin.ModelAdmin):
+	form = ContentAdminForm
+	search_fields = ['number','subchapter__title']
 
 class PageContentAdmin(admin.ModelAdmin):
-    form = PageContentAdminForm
+	form = PageContentAdminForm
+	search_fields = ['number','chapter__title']
 
 admin.site.register(Section, SectionAdmin)
-admin.site.register(Book)
-admin.site.register(Chapter)
-admin.site.register(SubChapter)
+admin.site.register(Book, BookAdmin)
+admin.site.register(Chapter, ChapterAdmin)
+admin.site.register(SubChapter, SubChapterAdmin)
 admin.site.register(PageContent, PageContentAdmin)
-
 admin.site.register(Content, ContentAdmin)
+

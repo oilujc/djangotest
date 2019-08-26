@@ -18,9 +18,12 @@
           
           {% if object.content_set.all %}
             <!-- Post Content -->
-            {% for content in object.content_set.all %}
-              <div id="{{content.number}}">{{content.content|safe}}</div>
-            {% endfor %}
+            <ol>
+              {% for content in object.content_set.all %}
+              <li class="mb-2" value="{{content.number}}" id="{{content.number}}">{{content.content|safe}}</li>
+              {% endfor %}
+            </ol>
+              
           {% endif %}
         </article>
       </div>
