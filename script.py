@@ -12,6 +12,8 @@ chapters = Chapter.objects.all()
 subchapters = SubChapter.objects.all()
 books = Book.objects.all()
 
+
+#Lista de palabras de capitulos
 word_list = ["Trinidad",
 			"Santísima",
 			"Biblia",
@@ -24,6 +26,7 @@ word_list = ["Trinidad",
 			"Virgen",
 			"Cristo"]
 
+#lista de palabras de subcapitulos
 word_sc_list = ["Trinidad",
 			"Santísima",
 			"Biblia",
@@ -54,6 +57,7 @@ word_sc_list = ["Trinidad",
 			"jehová",
 			"Virgen"]
 
+#bloque de codigo del contador (CORREGIR BUG)
 number = 8
 for book in books:
 	print(book.title)
@@ -68,6 +72,7 @@ for book in books:
 				content.save()
 				number += 1
 
+#bloque de codigo de palabras mayusculas capitulos
 for chapter in chapters:
 	chapter.title = chapter.title.capitalize()
 	for word in word_list:
@@ -76,6 +81,7 @@ for chapter in chapters:
 
 	chapter.save()
 
+#bloque de codigo de palabras mayusculas subcapitulos
 for subchapter in subchapters:
 	subchapter.title = subchapter.title.capitalize()
 	for word in word_sc_list:
