@@ -113,7 +113,7 @@ class Content(models.Model):
 	class Meta:
 		verbose_name = "Content"
 		verbose_name_plural = "Contents"
-		ordering = ['number','pk']
+		ordering = ['pk']
 
 	def __str__(self):
 		return "{}) {}".format(self.number, self.subchapter.title)

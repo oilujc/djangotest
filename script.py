@@ -5,12 +5,13 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangoTest.settings")
 django.setup()
 
-from app.models import Book, Chapter, SubChapter
+from app.models import Book, Chapter, SubChapter, Content
 
 
 chapters = Chapter.objects.all()
 subchapters = SubChapter.objects.all()
 books = Book.objects.all()
+contents = Content.objects.all()
 
 word_list = ["Trinidad",
 			"Santísima",
@@ -68,19 +69,34 @@ for book in books:
 				content.save()
 				number += 1
 
+for content in contents:
+	content.position = content.pk
+	content.save()
+
+
 for chapter in chapters:
+	print(chapter.title)
 	chapter.title = chapter.title.capitalize()
 	for word in word_list:
 		if word.lower() in chapter.title:
+
 			chapter.title = chapter.title.replace(word.lower(),word)
 
 	chapter.save()
 
 for subchapter in subchapters:
-	subchapter.title = subchapter.title.capitalize()
+	print(subchapter.title)
+	if subchapter.title[0] == '¿':
+		subchapter.title = '¿' + subchapter.title[1:].capitalize()
+	else:
+		subchapter.title = subchapter.title.capitalize()
+
 	for word in word_sc_list:
 		if word.lower() in subchapter.title:
-			print(word)
-			subchapter.title = subchapter.title.replace(word.lower(),word)
+			print(subchapter.title)
+			if subchapter.title[0] == '¿':
+				subchapter.title = '¿' + subchapter.title[1:].replace(word.lower(),word)
+			else:
+				subchapter.title = subchapter.title.replace(word.lower(),word)
 
 	subchapter.save()
