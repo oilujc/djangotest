@@ -29,6 +29,7 @@ class Book(models.Model):
 	slug = models.SlugField(blank=True, null=True)
 	author = models.CharField(max_length=100)
 	color = models.CharField(max_length=50, blank=True, null=True)
+	chapter_start_in = models.IntegerField(default=1)
 
 	created_at = models.DateTimeField(auto_now_add=True)
 
@@ -65,7 +66,7 @@ class Chapter(models.Model):
 	class Meta:
 		verbose_name = "Chapter"
 		verbose_name_plural = "Chapters"
-		ordering = ['chapter', 'pk']
+		ordering = ['chapter']
 
 	def __str__(self):
 		return f'{self.title} - {self.book.title}'
@@ -113,7 +114,7 @@ class Content(models.Model):
 	class Meta:
 		verbose_name = "Content"
 		verbose_name_plural = "Contents"
-		ordering = ['number','pk']
+		ordering = ['pk']
 
 	def __str__(self):
 		return "{}) {}".format(self.number, self.subchapter.title)
