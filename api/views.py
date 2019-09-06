@@ -16,10 +16,13 @@ from rest_framework.authentication import SessionAuthentication
 from app.models import (Book,
 					Chapter,
 					SubChapter,
-					Content
+					Content,
+					Section,
+
 					)
 
-from .serializers import (BookSerializer
+from .serializers import (BookSerializer,
+							SectionSerializer
 							)
 
 from rest_framework.response import Response
@@ -31,8 +34,8 @@ class BookView(ListAPIView):
 	serializer_class = BookSerializer
 	permission_classes = [IsAuthenticated]
 
-# class BookView(ListAPIView):
+class SectionView(ListAPIView):
 
-# 	queryset = Book.objects.all()
-# 	serializer_class = BookSerializer
-# 	permission_classes = [IsAuthenticated]
+	queryset = Section.objects.all()
+	serializer_class = SectionSerializer
+	permission_classes = [IsAuthenticated]

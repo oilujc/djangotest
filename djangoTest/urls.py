@@ -25,9 +25,9 @@ urlpatterns = [
 
     path('', HomeView.as_view(), name="home"),
 
-    path('<slug:slug>/', BookView.as_view(), name="book"),
-    path('<slug:book>/<slug:slug>/', ChapterView.as_view(), name="chapter"),
-    path('<slug:book>/<slug:chapter>/<slug:slug>', SubChapterView.as_view(), name="subchapter"),
+    path('book/<slug:slug>/', BookView.as_view(), name="book"),
+    path('book/<slug:book>/<slug:slug>/', ChapterView.as_view(), name="chapter"),
+    path('book/<slug:book>/<slug:chapter>/<slug:slug>', SubChapterView.as_view(), name="subchapter"),
 
     #Api
     path('api/', include('api.urls', namespace='api')),

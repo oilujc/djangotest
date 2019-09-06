@@ -4,8 +4,28 @@ from app.models import (Book,
 					Chapter,
 					SubChapter,
 					Content,
-					PageContent
+					PageContent,
+					Section
 					)
+
+
+class SectionSerializer(serializers.ModelSerializer):
+
+	class Meta:
+		model = Section
+		fields = (
+				'id',
+				'title',
+				'slug',
+				'content'
+		 		)
+
+		read_only_fields = (
+				'id',
+				'title',
+				'slug',
+				'content',
+		 		)
 
 class ContentSerializer(serializers.ModelSerializer):
 
@@ -14,6 +34,7 @@ class ContentSerializer(serializers.ModelSerializer):
 		fields = (
 				'id',
 				'content',
+				'number'
 		 		)
 
 		read_only_fields = (
@@ -28,11 +49,13 @@ class PageContentSerializer(serializers.ModelSerializer):
 		fields = (
 				'id',
 				'content',
+				'number'
 		 		)
 
 		read_only_fields = (
 				'id',
 				'content',
+				'number'
 		 		)
 
 
