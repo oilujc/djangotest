@@ -63,7 +63,7 @@ for book in books:
 		for subchapter in chapter.subchapter_set.all():
 			print(subchapter.title)
 
-			for content in subchapter.content_set.all().order_by("number").order_by("pk").order_by('position'):
+			for content in subchapter.content_set.all().order_by("-pk").order_by('position'):
 				content.number = number
 				print(content.number)
 				content.save()
