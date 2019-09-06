@@ -14,6 +14,7 @@ class ContentSerializer(serializers.ModelSerializer):
 		fields = (
 				'id',
 				'content',
+				'number'
 		 		)
 
 		read_only_fields = (
@@ -28,11 +29,13 @@ class PageContentSerializer(serializers.ModelSerializer):
 		fields = (
 				'id',
 				'content',
+				'number'
 		 		)
 
 		read_only_fields = (
 				'id',
 				'content',
+				'number'
 		 		)
 
 

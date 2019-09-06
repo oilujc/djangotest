@@ -55,8 +55,9 @@ word_sc_list = ["Trinidad",
 			"jehová",
 			"Virgen"]
 
-number = 8
 for book in books:
+
+	number = book.chapter_start_in
 	print(book.title)
 	for chapter in book.chapter_set.filter(page_type="ch"):
 		print("Capítulo {}) {}".format(chapter.chapter,chapter.title))
@@ -68,6 +69,8 @@ for book in books:
 				print(content.number)
 				content.save()
 				number += 1
+
+
 
 for content in contents:
 	content.position = content.pk
