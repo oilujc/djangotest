@@ -119,6 +119,22 @@ class Content(models.Model):
 	def __str__(self):
 		return "{}) {}".format(self.number, self.subchapter.title)
 
+# class Footer(models.Model):
+
+# 	subchapter = models.ForeignKey(SubChapter, on_delete=models.CASCADE)
+# 	subchapter = models.ForeignKey(SubChapter, on_delete=models.CASCADE)
+# 	content = RichTextUploadingField()
+# 	number = models.IntegerField(default=0)
+# 	created_at = models.DateTimeField(auto_now_add=True)
+
+# 	class Meta:
+# 		verbose_name = "Content"
+# 		verbose_name_plural = "Contents"
+# 		ordering = ['pk']
+
+# 	def __str__(self):
+# 		return "{}) {}".format(self.number, self.subchapter.title)
+
 @receiver(post_save, sender=Book)
 def post_save_book(sender, instance,created, **kwargs):
 	if not instance.slug:
