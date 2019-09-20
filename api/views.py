@@ -17,12 +17,17 @@ from app.models import (Book,
 					Chapter,
 					SubChapter,
 					Content,
+					PageContent,
 					Section,
 
 					)
 
 from .serializers import (BookSerializer,
-							SectionSerializer
+							SectionSerializer,
+							ContentSerializer,
+							PageContentSerializer,
+							SubChapterSerializer,
+							ChapterSerializer,
 							)
 
 from rest_framework.response import Response
@@ -38,4 +43,32 @@ class SectionView(ListAPIView):
 
 	queryset = Section.objects.all()
 	serializer_class = SectionSerializer
+	permission_classes = [IsAuthenticated]
+
+
+class ContentView(ListAPIView):
+
+	queryset = Content.objects.all()
+	serializer_class = ContentSerializer
+	permission_classes = [IsAuthenticated]
+
+
+class PageContentView(ListAPIView):
+
+	queryset = PageContent.objects.all()
+	serializer_class = PageContentSerializer
+	permission_classes = [IsAuthenticated]
+
+
+class SubChapterView(ListAPIView):
+
+	queryset = SubChapter.objects.all()
+	serializer_class = SubChapterSerializer
+	permission_classes = [IsAuthenticated]
+
+
+class ChapterView(ListAPIView):
+
+	queryset = Chapter.objects.all()
+	serializer_class = ChapterSerializer
 	permission_classes = [IsAuthenticated]
